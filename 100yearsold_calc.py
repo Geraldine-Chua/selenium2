@@ -13,8 +13,15 @@ import time
 #print("You will turn 100 years old on", year100)
 
 #CODE 2
-name=str(input("Enter your name:  "))
-print("Your name is", name)
-age=int(input("Enter your age: " ))
-print("Your age is", age)
-print("You will turn 100 years old on", int(2020+(100-age)))
+
+repeat = "Y"
+while repeat == "Y":
+    name=str(input("Enter your name:  "))
+    print("Your name is", name)
+    age=int(input("Enter your age: " ))
+    print("Your age is", age)
+    print("You will turn 100 years old on", int(2020+(100-age)))
+    repeat=str(input("Do you want to enter another name?[Y/N]:  "))
+print("Ok, Good Bye!")
+
+
